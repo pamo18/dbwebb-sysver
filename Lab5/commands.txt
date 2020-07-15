@@ -1,0 +1,2 @@
+httperf --hog --server localhost --port 6399 --uri /customers --num-con 5000000 --rate 500000 --timeout 10 > report
+sudo apt install httperf
